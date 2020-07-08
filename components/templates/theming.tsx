@@ -5,7 +5,7 @@ export interface Theme {
   secondaryTextColor: string;
 }
 
-const mainTheme: Theme = {
+export const mainTheme: Theme = {
   mainTextColor: 'white',
   secondaryTextColor: 'black',
 }
@@ -13,5 +13,5 @@ const mainTheme: Theme = {
 export const ThemeContext = createContext<Theme>(mainTheme);
 export const ThemeProvider = ThemeContext.Provider;
 export const useTheme = () => {
-  return useContext(ThemeContext);
+  return useContext<Theme>(ThemeContext);
 }
