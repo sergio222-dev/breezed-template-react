@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      // Representational layer
+      "@Atoms/*": ["./components/atoms/*"],
+      "@Molecules/*": ["./components/molecules/*"],
+      "@Organism/*": ["./components/organism/*"],
+      "@Templates/*": ["./components/templates/*"],
+      "@Presenters/*": ["./components/presenters/*"],
+
+      // Data layer
+      "@Iterators/*": ["./libs/useCases/*"],
+      "@Services/*": ["./libs/services/*"],
+      "@Entity/*": ["./libs/entities/*"],
+      "@Adapters/*": ["./libs/adapters/*"]
+    },
+    "module": "esnext",
+    "target": "es5",
+    "sourceMap": true,
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve"
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ]
+}
