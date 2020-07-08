@@ -1,5 +1,6 @@
 import Head      from 'next/head'
 import Container from '@Templates/container';
+import Navbar    from '@Organism/Navbar';
 
 export default function Home() {
   return (
@@ -10,14 +11,9 @@ export default function Home() {
       </Head>
       <header>
         <Container>
-          Conainer
+          <Navbar />
         </Container>
       </header>
-      <style jsx global>{`
-        body {
-          margin: 0;
-        }
-      `}  </style>
     </>
   )
 }

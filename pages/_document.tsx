@@ -1,10 +1,10 @@
-import React                                      from 'react';
-import Document, { Html, Head, Main, NextScript } from 'next/document'
+import React                                    from 'react';
+import Document, {Html, Head, Main, NextScript} from 'next/document'
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const initialProps = await Document.getInitialProps(ctx)
-    return { ...initialProps }
+    return {...initialProps}
   }
 
   render() {
@@ -16,11 +16,16 @@ class MyDocument extends Document {
             rel="stylesheet"/>
         </Head>
         <body>
-        <Main />
-        <NextScript />
+        <Main/>
+        <NextScript/>
         <style global jsx>{`
           body {
+            margin: 0;
             font-family: 'Raleway', sans-serif;
+          }
+          
+          a {
+            text-decoration: none !important;
           }
         `}</style>
         </body>
