@@ -5006,7 +5006,7 @@ prop-types-exact@1.2.0:
     object.assign "^4.1.0"
     reflect.ownkeys "^0.2.0"
 
-prop-types@15.7.2, prop-types@^15.6.2:
+prop-types@15.7.2, prop-types@^15.6.2, prop-types@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.7.2.tgz#52c41e75b8c87e72b9d9360e0206b99dcbffa6c5"
   integrity sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==
@@ -5134,6 +5134,13 @@ react-dom@16.13.1:
     object-assign "^4.1.1"
     prop-types "^15.6.2"
     scheduler "^0.19.1"
+
+react-grid-system@^7.0.3:
+  version "7.0.3"
+  resolved "https://registry.yarnpkg.com/react-grid-system/-/react-grid-system-7.0.3.tgz#ef8928e2a07641cae9fa2735637903aa94751a44"
+  integrity sha512-8ppMdkKFu6geeg8bjvR0Yq54aUDcf9ghP5zcWg/po0ThRCbyLvadyNImjN2ZrL/zy3daEJpVtTq638N0FtmPDw==
+  dependencies:
+    prop-types "^15.7.2"
 
 react-is@16.13.1, react-is@^16.8.1:
   version "16.13.1"

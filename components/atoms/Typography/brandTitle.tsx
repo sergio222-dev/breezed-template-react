@@ -1,4 +1,5 @@
 import React, {FunctionComponent} from 'react';
+import {useTheme}                 from '@Templates/theming';
 
 interface OwnProps {
 }
@@ -6,14 +7,14 @@ interface OwnProps {
 type Props = OwnProps;
 
 const BrandTitle: FunctionComponent<Props> = ({children}) => {
-
+  const theme = useTheme();
   return (
     <>
       <a className={'logo'} href={'#'}>{children}</a>
       <style jsx>{`
         .logo {
           line-height: 80px;
-          color: white;
+          color: ${theme.mainTextColor};
           font-size: 28px;
           font-weight: 700;
           text-transform: uppercase;
@@ -21,7 +22,7 @@ const BrandTitle: FunctionComponent<Props> = ({children}) => {
           float: left;
           
           &:visited {
-            color: white;
+            color: ${theme.mainTextColor};
           }
         }
       `}</style>
