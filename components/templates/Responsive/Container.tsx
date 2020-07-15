@@ -1,16 +1,13 @@
 import React, {FunctionComponent} from 'react';
 
-interface OwnProps {
-}
+interface OwnProps {}
 
 type Props = OwnProps;
 
 const Container: FunctionComponent<Props> = ({children}) => {
   return (
-    <>
-      <div className={'container'}>
-        {children}
-      </div>
+    <div className={'container'}>
+      {children}
       <style jsx>{`
         @media (min-width: 1200px) {
           .container {
@@ -44,7 +41,7 @@ const Container: FunctionComponent<Props> = ({children}) => {
           margin-left: auto;
         }
       `}</style>
-    </>
+    </div>
   );
 };
 

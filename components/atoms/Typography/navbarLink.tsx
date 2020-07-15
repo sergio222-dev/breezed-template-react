@@ -1,19 +1,19 @@
-import React, { FunctionComponent } from 'react';
-import {useTheme}                   from '@Templates/theming';
+import React, {FunctionComponent, useState} from 'react';
+import {useTheme}                           from '../../../settings/theming';
+import {TypographyProps}          from '@Atoms/Typography/typography.interface';
+import {useScroll}                from '@Presenters/useScroll';
 
-interface OwnProps {}
+type Props = TypographyProps;
 
-type Props = OwnProps;
-
-const NavbarLink: FunctionComponent<Props> = ({children}) => {
+const NavbarLink: FunctionComponent<Props> = ({children, alter, active}) => {
   const theme = useTheme();
 
   return (
-    <>
-      <a className="navbarLink" href="#">{children}</a>
+    <a className="navbar-link" href="#">
+      {children}
       <style jsx>{`
-        .navbarLink {
-          color: ${theme.mainTextColor};
+        .navbar-link {
+          color: ${active ? theme.green : alter ? theme.black : theme.white};
           font-weight: 500;
           font-size: 13px;
           text-transform: uppercase;
@@ -28,11 +28,11 @@ const NavbarLink: FunctionComponent<Props> = ({children}) => {
           }
           
           &:visited {
-            color: ${theme.mainTextColor};
+            color: ${active ? theme.green : alter ? theme.black : theme.white};
           }
         }
       `}</style>
-    </>
+    </a>
   );
 };
 

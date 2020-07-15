@@ -22,6 +22,7 @@ class MyDocument extends Document {
           body {
             margin: 0;
             font-family: 'Raleway', sans-serif;
+            box-sizing: border-box;
           }
           
           a {

@@ -1,13 +1,15 @@
 import {createContext, useContext} from 'react';
 
 export interface Theme {
-  mainTextColor: string;
-  secondaryTextColor: string;
+  white: string;
+  black: string;
+  green: string;
 }
 
 export const mainTheme: Theme = {
-  mainTextColor: 'white',
-  secondaryTextColor: 'black',
+  white: '#fff',
+  black: '#000',
+  green: '#5fb759',
 }
 
 export const ThemeContext = createContext<Theme>(mainTheme);

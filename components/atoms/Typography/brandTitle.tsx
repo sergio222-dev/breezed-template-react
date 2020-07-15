@@ -1,12 +1,13 @@
 import React, {FunctionComponent} from 'react';
-import {useTheme}                 from '@Templates/theming';
+import {useTheme}                 from '../../../settings/theming';
 
 interface OwnProps {
+  alter?: boolean;
 }
 
 type Props = OwnProps;
 
-const BrandTitle: FunctionComponent<Props> = ({children}) => {
+const BrandTitle: FunctionComponent<Props> = ({children, alter}) => {
   const theme = useTheme();
   return (
     <>
@@ -14,7 +15,7 @@ const BrandTitle: FunctionComponent<Props> = ({children}) => {
       <style jsx>{`
         .logo {
           line-height: 80px;
-          color: ${theme.mainTextColor};
+          color: ${alter ? theme.black : theme.white};
           font-size: 28px;
           font-weight: 700;
           text-transform: uppercase;
@@ -22,12 +23,16 @@ const BrandTitle: FunctionComponent<Props> = ({children}) => {
           float: left;
           
           &:visited {
-            color: ${theme.mainTextColor};
+            color: ${alter ? theme.black : theme.white};
           }
         }
       `}</style>
     </>
   );
 };
+
+BrandTitle.defaultProps = {
+  alter: false,
+}
 
 export default BrandTitle;

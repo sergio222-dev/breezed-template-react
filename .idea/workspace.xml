@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2e6f5ae0-0781-4b0e-8e9d-5516a7ef21fd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/components/molecules/SearchButton/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/molecules/Slider/slide.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/molecules/SrollSection/ScrollButton.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/organism/Slider/Slide.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/organism/Slider/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/organism/Slider/next.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/organism/Slider/prev.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/presenters/usePage.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/presenters/usePrev.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/presenters/useScroll.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/presenters/useStyles.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/templates/Header/HeaderSection.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/templates/Section/SectionTemplate.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/adapters/page/actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/adapters/page/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/adapters/page/reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/adapters/page/store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/framework/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/framework/redux.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/atoms/Typography/brandTitle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/atoms/Typography/brandTitle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/atoms/Typography/navbarLink.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/atoms/Typography/navbarLink.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/organism/Navbar/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/organism/Navbar/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/templates/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/components/atoms/Buttons/Arrow.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/templates/NavbarTemplate.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/templates/container.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/templates/Responsive/Container.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/templates/linkbarTemplate.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/templates/theming.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/settings/theming.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/adapters/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/components/atoms/Buttons/Scroll.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_document.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_document.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/components/atoms/Typography/typography.interface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="ProjectId" id="1eOvYA4xwcQhOq4negB3CBGQYpC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/settings" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="G:\code\breezed-template-react\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\code\breezed-template-react\libs\adapters\page" />
+      <recent name="G:\code\breezed-template-react\components\templates\Responsive" />
+      <recent name="G:\code\breezed-template-react\settings" />
+      <recent name="G:\code\breezed-template-react\components\atoms" />
+      <recent name="G:\code\breezed-template-react" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\code\breezed-template-react\settings" />
+      <recent name="G:\code\breezed-template-react\componentes\templates" />
+      <recent name="G:\code\breezed-template-react\componentes\organism" />
+      <recent name="G:\code\breezed-template-react\componentes\molecules" />
+      <recent name="G:\code\breezed-template-react\componentes\atoms" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="start" />
+      <command value="dev" />
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2e6f5ae0-0781-4b0e-8e9d-5516a7ef21fd" name="Default Changelist" comment="" />
+      <created>1594205498517</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594205498517</updated>
+      <workItem from="1594205504264" duration="14338000" />
+      <workItem from="1594284717022" duration="704000" />
+      <workItem from="1594287225297" duration="9562000" />
+      <workItem from="1594302813425" duration="14345000" />
+      <workItem from="1594357376696" duration="4185000" />
+      <workItem from="1594378493770" duration="12057000" />
+      <workItem from="1594468471761" duration="1433000" />
+      <workItem from="1594473789554" duration="5344000" />
+      <workItem from="1594558639806" duration="16484000" />
+      <workItem from="1594588450666" duration="1954000" />
+      <workItem from="1594733844687" duration="12430000" />
+      <workItem from="1594820973731" duration="767000" />
+      <workItem from="1594821851339" duration="9552000" />
+    </task>
+    <task id="LOCAL-00001" summary="idea ignore">
+      <created>1594205579222</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594205579222</updated>
+    </task>
+    <task id="LOCAL-00002" summary="folder structure">
+      <created>1594206832765</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594206832765</updated>
+    </task>
+    <task id="LOCAL-00003" summary="first template and css">
+      <created>1594209032655</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594209032655</updated>
+    </task>
+    <task id="LOCAL-00004" summary="brand typography and navbar">
+      <created>1594210593825</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1594210593825</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Theming">
+      <created>1594210904218</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1594210904218</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Theming fix">
+      <created>1594211355548</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1594211355548</updated>
+    </task>
+    <task id="LOCAL-00007" summary="navbar">
+      <created>1594213792881</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1594213792881</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="idea ignore" />
+    <MESSAGE value="folder structure" />
+    <MESSAGE value="first template and css" />
+    <MESSAGE value="brand typography and navbar" />
+    <MESSAGE value="Theming" />
+    <MESSAGE value="Theming fix" />
+    <MESSAGE value="navbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="navbar" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="583" y="76" key="CommitChangelistDialog2" timestamp="1594213790871">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="583" y="76" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594213790871" />
+    <state width="1921" height="278" key="GridCell.Tab.0.bottom" timestamp="1594831013622">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594831013622" />
+    <state width="1921" height="278" key="GridCell.Tab.0.center" timestamp="1594831013621">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594831013621" />
+    <state width="1921" height="278" key="GridCell.Tab.0.left" timestamp="1594831013621">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594831013621" />
+    <state width="1921" height="278" key="GridCell.Tab.0.right" timestamp="1594831013621">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1921" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594831013621" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1594287061113">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594287061113" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1594829859904">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1594829859904" />
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1594213801422">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="249" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594213801422" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1594287354725">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594287354725" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1594821746584">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1594821746584" />
+  </component>
+</project>
